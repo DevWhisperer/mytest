@@ -91,7 +91,7 @@ export default function TaskListPage() {
                   </div>
                 ) : (
                   <Link href={`/task/${task.id}`} className="block h-full">
-                    <div className="border border-gray-100 rounded-xl p-5 hover:border-blue-300 hover:bg-blue-50 transition-all cursor-pointer h-full shadow-sm flex flex-col justify-center">
+                    <div className="border border-gray-100 rounded-xl p-5 hover:border-primary transition-all cursor-pointer h-full shadow-sm flex flex-col justify-center">
                       <div className="flex items-center justify-between mb-2">
                         <h3 className="font-bold text-lg text-gray-900 truncate">
                           {task.title}

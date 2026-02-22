@@ -17,7 +17,7 @@ export default function DashboardPage() {
       label: "일",
       value: stats?.numOfTask,
       icon: ClipboardList,
-      color: "text-blue-500",
+      color: "text-primary",
     },
     {
       label: "해야할 일",
@@ -29,7 +29,7 @@ export default function DashboardPage() {
       label: "한 일",
       value: stats?.numOfDoneTask,
       icon: CheckCircle2,
-      color: "text-green-500",
+      color: "text-disabled",
     },
   ];
 

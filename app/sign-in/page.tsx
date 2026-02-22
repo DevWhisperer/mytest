@@ -71,7 +71,7 @@ function SignInForm() {
               className={cn(
                 "w-full px-4 py-3 border rounded-xl outline-none transition-all",
                 errors.email
-                  ? "border-error bg-red-50"
+                  ? "border-error bg-error/10"
                   : "border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary",
               )}
             />
@@ -111,7 +111,7 @@ function SignInForm() {
               className={cn(
                 "w-full px-4 py-3 border rounded-xl outline-none transition-all",
                 errors.password
-                  ? "border-error bg-red-50"
+                  ? "border-error bg-error/10"
                   : "border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary",
               )}
             />
