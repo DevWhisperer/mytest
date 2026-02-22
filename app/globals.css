@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-disabled: #d1d5db;
+  --color-error: #ef4444;
+
+  --font-sans: var(--font-pretendard), ui-sans-serif, system-ui;
+}
+
+:root {
+  background: white;
+  color: black;
+}

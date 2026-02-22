@@ -1,0 +1,33 @@
+# 1. 의존성 (가장 중요)
+node_modules/
+/node_modules
+.pnp
+.pnp.js
+
+# 2. Next.js 빌드 및 결과물
+/.next/
+/out/
+/build
+.next-helpers/
+
+# 3. 캐시 및 로그 (질문하신 .cache 포함)
+.cache/
+~/.cache/
+node_modules/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# 4. OS 관련 파일 (Mac 사용 중이시니 필수)
+.DS_Store
+Thumbs.db
+
+# 5. 환경 변수 (보안)
+.env*.local
+.env
+
+# 6. 테스팅 및 기타
+/coverage
+.vercel
+*.tsbuildinfo
