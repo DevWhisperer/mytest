@@ -67,7 +67,7 @@ export default function UserInfoPage() {
 
         <button
           onClick={handleLogout}
-          className="w-full py-3 text-gray-500 hover:text-error transition-colors text-sm underline"
+          className="w-full py-3 text-gray-500 hover:text-error transition-colors text-sm underline cursor-pointer"
         >
           로그아웃
         </button>

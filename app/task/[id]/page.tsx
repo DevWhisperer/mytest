@@ -46,7 +46,7 @@ export default function TaskDetailPage() {
 
       <button
         onClick={() => setIsModalOpen(true)}
-        className="bg-error text-white px-6 py-2 rounded-lg"
+        className="bg-error text-white px-6 py-2 rounded-lg cursor-pointer"
       >
         삭제
       </button>
@@ -70,7 +70,7 @@ export default function TaskDetailPage() {
             <div className="flex gap-2">
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="flex-1 bg-gray-200 py-2 rounded"
+                className="flex-1 bg-gray-200 py-2 rounded cursor-pointer"
               >
                 취소
               </button>
@@ -80,7 +80,7 @@ export default function TaskDetailPage() {
                 className={cn(
                   "flex-1 py-2 rounded text-white",
                   deleteInput === id
-                    ? "bg-error"
+                    ? "bg-error cursor-pointer"
                     : "bg-disabled cursor-not-allowed",
                 )}
               >

@@ -128,7 +128,7 @@ function SignInForm() {
             className={cn(
               "w-full py-4 rounded-xl font-bold text-white transition-all shadow-md",
               isValid
-                ? "bg-primary active:scale-[0.98]"
+                ? "bg-primary active:scale-[0.98] cursor-pointer"
                 : "bg-gray-300 cursor-not-allowed shadow-none",
             )}
           >
